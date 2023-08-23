@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.frfc {
+    background-color: rgb(17, 17, 17);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.frfc img {
+    width: 24px;
+}
+
+.frfc p a {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-left: 15px;
+    color: rgb(166, 166, 166);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.frfc p a:hover {
+    color: rgb(232, 232, 232);
+}
+
+.frmc {
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.frmcp {
+    padding: 5px;
+}
+
+.frmcp img {
+    width: 24px;
+}
+
+.frmcp span {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(166, 166, 166);
+    letter-spacing: 1px;
+}
+
+.frmcp span:hover {
+    color: rgb(232, 232, 232);
+}
+
+.frmcp2 {
+    margin-top: 25px;
+}
+
+.frmcp2 span {
+    box-sizing: border-box;
+    border: 1px solid rgb(17, 17, 17);
+    border-radius: 20px;
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(232, 232, 232);
+    letter-spacing: 1px;
+}
+
+.frmcp2 span:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.frmcp3 {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.frmcp3 span {
+    float: right;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:
+        rgb(166, 166, 166);
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+.leftpics {
+    margin-top: 8px;
+    margin-left: 20px;
+    padding: 5px;
+    margin-bottom: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.317);
+}
+
+.leftpics:hover {
+    background-color: rgb(28, 28, 28);
+
+}
+
+.leftpics img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.leftpics span {
+    font-size: 1.6rem;
+    color: rgb(166, 166, 166);
+    letter-spacing: 0px;
+    margin-left: 10px;
+}
+
+.leftpics span:hover {
+    color: rgb(232, 232, 232);
+}
+
+.main1 {
+    background-image: linear-gradient(to left, rgba(255, 0, 93, 0.317) 25%, rgb(17, 17, 17) 75%);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.main1 p {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.main1 img {
+    width: 32px;
+}
+
+.main1 span {
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: rgb(28, 28, 28);
+    font-size: 14px;
+    color: rgb(255, 254, 254);
+    letter-spacing: 1px;
+}
+
+.main1 h2 {
+    font-size: 3rem;
+    color: white;
+    margin-left: 30px;
+}
+
+.main1 h3 {
+    font-size: 3rem;
+    color: white;
+    margin-left: 30px;
+}
+
+
+
+
+/* .spotify-playlists {
+    /* padding: 20px 40px; 
+  } */
+.spotify-playlists h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.spotify-playlists .list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.spotify-playlists .list .item {
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.spotify-playlists .list .item:hover {
+    background-color: #252525;
+}
+
+.spotify-playlists .list .item img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.spotify-playlists .list .item .play {
+    position: relative;
+}
+
+.spotify-playlists .list .item .play .fa {
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
+.spotify-playlists .list .item:hover .play .fa {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.spotify-playlists .list .item h4 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.spotify-playlists .list .item p {
+    color: #989898;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.spotify-playlists hr {
+    margin: 70px 0px 0px;
+    border-color: #636363;
+}
